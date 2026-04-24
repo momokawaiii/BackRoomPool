@@ -1,0 +1,71 @@
+# Resources
+resources/*
+!resources/skybox/
+!resources/skybox/**
+!resources/blender/
+!resources/blender/**
+!resources/water/
+!resources/water/**
+!resources/hdr/
+!resources/hdr/**
+
+# C++ GitIgnore
+.vscode/*
+build/*
+
+# Github
+.github/
+
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+OpenGLStarter
+
+# CMake GitIgnore
+
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+Testing
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps
+.idea/
+cmake-build-debug/
+external/glad/
+# Exclude Out Folder - As Everything there is compiled using CMake
+
+[Oo][Uu][Tt]
